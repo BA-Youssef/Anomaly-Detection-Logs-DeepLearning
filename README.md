@@ -46,17 +46,21 @@ Dans le fichier `Detection_anomalie.ipynb`, un modèle CNN est entraîné pour d
 
 Les résultats de l'entraînement sont visualisés sous forme de courbes et de matrices, permettant une évaluation visuelle des performances du modèle.
 
-- **Courbe d'Entraînement** : Affiche l'évolution de la précision et de la perte au fil des époques.
-from IPython.display import Image, display
-display(Image(filename='results/cout.png', width=600, height=400))
+## Courbe d'Entraînement
+Affiche l'évolution de la précision et de la perte au fil des époques.
 
-- **Courbe de Validation** : Affiche la précision de détection des anomalies sur l'ensemble de validation.
+![Courbe d'Entraînement](results/cout.png)
 
-display(Image(filename='results/Training-validation-score.png', width=600, height=400))
+## Courbe de Validation
+Affiche la précision de détection des anomalies sur l'ensemble de validation.
 
-- **Matrice de Confusion** : Visualise les erreurs de classification du modèle entre les classes normales et anormales.
+![Courbe de Validation](results/Training-validation-score.png)
 
-display(Image(filename='results/confusion_matrix.png', width=600, height=400))
+## Matrice de Confusion
+Visualise les erreurs de classification du modèle entre les classes normales et anormales.
+
+![Matrice de Confusion](results/confusion_matrix.png)
+
 
 # ## Conclusion
 Ce projet de détection d'anomalies dans les logs combine structuration des données, extraction des caractéristiques, et apprentissage profond.
