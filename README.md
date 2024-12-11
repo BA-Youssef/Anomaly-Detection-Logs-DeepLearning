@@ -63,11 +63,9 @@ Visualise les erreurs de classification du modèle entre les classes normales et
 
 
 # ## Conclusion
-Ce projet de détection d'anomalies dans les logs combine structuration des données, extraction des caractéristiques, et apprentissage profond.
-Il s’agit d’une solution complète permettant une surveillance proactive des systèmes et une détection efficace des comportements anormaux.
+Ce projet de détection d'anomalies dans les logs combine structuration des données, extraction des caractéristiques, et apprentissage profond. Il s’agit d’une solution complète permettant une surveillance proactive des systèmes et une détection efficace des comportements anormaux.
 
-
-display(Image(filename='results/accuracy.png', width=600, height=400))
+![Précision du modèle](results/accuracy.png)
 
 
 # NP : Les données de ce projet sont extraite de la collection de HDFS de loghub : https://github.com/logpai/loghub/tree/master 
